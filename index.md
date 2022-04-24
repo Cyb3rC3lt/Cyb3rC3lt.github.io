@@ -1,4 +1,6 @@
-<title>ICS Security</title>
+---
+title: ICS Security
+---
 
 # root@kali:~# whoami
 
