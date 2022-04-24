@@ -1,3 +1,5 @@
+<title>ICS Security</title>
+
 # root@kali:~# whoami
 
 Cyb3r C3lt
