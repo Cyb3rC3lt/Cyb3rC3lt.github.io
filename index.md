@@ -2,7 +2,7 @@
 title: ICS Security
 ---
 
-# root@kali:~# whoami
+**root@kali:~# whoami**
 
 **Cyb3r C3lt**
 
