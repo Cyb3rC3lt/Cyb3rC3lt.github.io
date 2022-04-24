@@ -1,9 +1,3 @@
-# root@kali:~# hostname
-
-ICSSecurity.io
-
----
-
 # root@kali:~# whoami
 
 Cyb3r C3lt
