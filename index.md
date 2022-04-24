@@ -4,7 +4,7 @@ title: ICS Security
 
 # root@kali:~# whoami
 
-** Cyb3r C3lt **
+**Cyb3r C3lt**
 
 # root@kali:~# cat about.txt
 
