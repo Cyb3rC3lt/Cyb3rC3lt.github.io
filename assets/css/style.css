@@ -6,3 +6,5 @@
 #a-title{text-decoration:none;}
 header h1{margin:0;}
 
+header h1:before{content:"";font-size:24px}header h2{font-size:18px;font-weight:300;color:#666}#
+
