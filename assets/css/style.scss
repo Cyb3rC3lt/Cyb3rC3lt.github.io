@@ -6,8 +6,8 @@
 #a-title{text-decoration:none;}
 header h1{margin:0;}
 p {
-  color: red;
+  color: white;
+  font-size:30px;
 }
 header h1:before{content: "root@kali:~# hostname\A";white-space:pre;}
-header h1:after{content: "root@kali:~# whoami2\A";white-space:pre;}
 
