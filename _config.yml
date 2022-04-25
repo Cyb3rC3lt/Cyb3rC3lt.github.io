@@ -1,4 +1,14 @@
 theme: jekyll-theme-hacker
 title: ICS Security
 
+defaults:
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
+      permalink: /blog/:categories/:title/
+
 
