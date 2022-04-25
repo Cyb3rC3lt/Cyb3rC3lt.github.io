@@ -13,5 +13,5 @@ title: Blog
   {% endfor %}
 </ul>
 
-<p>
-<b><a href="/index">Back</a></b>
+<br>
+<a href="/index">Back</a>
