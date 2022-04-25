@@ -4,19 +4,6 @@
 @import "{{ site.theme }}";
 
 #a-title{text-decoration:none;}
-header h1{
-  margin:0;
-}
-p {
-  color: blue;
-  font-size:5px;
-}
-header h3 {
-  color: white;
-  font-size:20px;
-}
-header h2 {
-  font-size: 10em;
-  before{content: "root@kali:~# hostname\A";white-space:pre;
-}
+header h1:before{content: "root@localhost:~ # whoami\A";white-space:pre;}
+header h1{margin:0;}
 
