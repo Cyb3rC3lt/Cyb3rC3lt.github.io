@@ -1,13 +1,4 @@
 theme: jekyll-theme-hacker
 title: ICSSecurity.io
 
-description: A blog about ICS Cyber Security
-author:
-  name: David Kennedy
-  url: http://icssecurity.io
 
-baseurl: /blog
-
-paginate: 3
-owner: admin
-year: 2022
