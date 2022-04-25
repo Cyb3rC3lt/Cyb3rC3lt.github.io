@@ -8,6 +8,6 @@ title: ICS Security
 
 ## root@kali:~# cat about.txt
 
-**Welcome to my little site focusing on ICS Cyber Security which you can read about in my [Blog](blog.md). I am currently preparing for the OSCP in the hope I can then move into pen testing ICS systems.**
+**Welcome to my little site focusing on ICS Cyber Security which you can read about in my [Blog](blog.md). I am currently preparing for the OSCP in the hope I can then move into pen testing Industrial Control Systems.**
 
 
