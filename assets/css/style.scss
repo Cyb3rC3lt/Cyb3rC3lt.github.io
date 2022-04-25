@@ -14,5 +14,7 @@ p {
   font-size:20px;
 }
 img {
-  width: 75px; /* Set a small width */
+  width: 75px;
+  background: none !important;
+  box-shadow: none !important;
 }
