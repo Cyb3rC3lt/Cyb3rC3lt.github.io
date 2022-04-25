@@ -8,7 +8,7 @@ title: ICS Security
 
 <div class="handle">
   Cyb3r C3lt
-</div
+</div>
 
 <div class="intro">
   root@kali:~# cat about.txt
