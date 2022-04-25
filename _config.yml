@@ -6,8 +6,6 @@ author:
   name: David Kennedy
   url: https://icssecurity.io
 
-baseurl: /blog
-
 paginate: 3
 owner: admin
 year: 2022
