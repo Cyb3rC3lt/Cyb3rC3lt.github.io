@@ -1,4 +1,13 @@
-<div class="constrain">
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url}}">
+  </head>
+  <body>       
+       <div class="constrain">
    <h1>The best of the rest</h1> 
    <section class="card-list">
            {% for post in site.posts offset:1 %}
@@ -13,3 +22,5 @@
           
    </section>
 </div>
+       </body>
+</html>
