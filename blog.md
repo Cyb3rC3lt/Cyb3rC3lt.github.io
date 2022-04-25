@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: bloglayout
 title: Blog
 ---
 <h1>Latest Posts</h1>
