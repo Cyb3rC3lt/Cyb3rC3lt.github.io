@@ -1,34 +1,15 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }}</p>
-
-{{ content }}
-
-{%- capture the_cat -%}{{page.categories | first}}{%- endcapture -%}
-{%- assign sorted_posts = site.categories[the_cat] | sort: 'order' -%}
-
-{%- for post in sorted_posts -%}
-    {%- if post.url == page.url -%}
-
-    {%- assign currIndex = forloop.index0 -%}
-    {%- assign prevIndex = currIndex | minus: 1 -%}
-    {%- assign nextIndex = currIndex | plus: 1 -%}
-    {%- assign articleIndexLength = forloop.length | minus: 1 -%}
-
-    {%- if currIndex == articleIndexLength -%}
-        {%- assign prev_post = sorted_posts[prevIndex] -%}
-    {%- endif -%}
-
-    {%- if currIndex < articleIndexLength and currIndex != 0 -%}
-        {%- assign prev_post = sorted_posts[prevIndex] -%}
-        {%- assign next_post = sorted_posts[nextIndex] -%}
-    {%- endif -%}
-
-    {%- if currIndex == 0 -%}
-        {%- assign next_post = sorted_posts[nextIndex] -%}
-    {%- endif -%}
-
-    {%- endif -%}
-{%- endfor -%}
+<article id="post">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <div class="post-date">{{ page.date | date: "%b %-d, %Y" }}</div>
+        <ul class="post-categories">
+            {% for category in page.categories %}
+            <li class="post-category">{{ category }}</li>
+            {% endfor %}
+        </ul>
+    </header>
+    {{ content }}
+</article>
