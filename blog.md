@@ -4,9 +4,9 @@ title: Blog
 ---
 <h1>Latest Posts</h1>
 
-<ul>
+<u>
   {% for post in site.posts %}
-<p><ul>{{ page.date | date_to_string }}</ul></p>
+<p><ul>{{ page.date | date_to_string }}</u></p>
 
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
