@@ -1,2 +1,13 @@
 theme: jekyll-theme-hacker
 title: ICSSecurity.io
+
+description: [A short description of your blog's purpose]
+author:
+  name: David Kennedy
+  url: http://icssecurity.io
+
+baseurl: /blog
+
+paginate: 3
+owner: admin
+year: 2022
