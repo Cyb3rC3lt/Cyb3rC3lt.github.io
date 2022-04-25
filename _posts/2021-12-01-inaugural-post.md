@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Inaugural Post!"
-date: 2021-06-31
+date: 01-12-2021
 categories: News
 ---
 
