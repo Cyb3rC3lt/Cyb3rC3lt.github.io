@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "ICS Hacking"
-date: 2021-06-31
 categories: News
 ---
 
