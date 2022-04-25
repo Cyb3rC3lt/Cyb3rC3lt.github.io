@@ -4,9 +4,9 @@
 @import "{{ site.theme }}";
 
 #a-title{text-decoration:none;}
-header h2:{content: "root@localhost:~# hostname\A";white-space:pre;}
-header h3:{content: "ICS Security\A";white-space:pre;}
-header h3:{margin:0;}
+header h2{content: "root@localhost:~# hostname\A";white-space:pre;}
+header h3{content: "ICS Security\A";white-space:pre;}
+header h3{margin:0;}
 
 p {
   color: white;
