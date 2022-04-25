@@ -1,5 +1,5 @@
 ---
-title: ICSSecurity.io
+title: ICS Security
 ---
 
 ## root@kali:~# whoami
