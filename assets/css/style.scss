@@ -18,8 +18,5 @@ header h3 {
 }
 header h2 {
   font-size: 10em;
-  before{content: "root@kali:~# hostname\A";white-space:pre;
+  before{content: "root@kali:~# hostname\A";white-space:pre;}
 }
-
- header h1:before{content: "root@localhost:~ # whoami\A";white-space:pre;}
-
