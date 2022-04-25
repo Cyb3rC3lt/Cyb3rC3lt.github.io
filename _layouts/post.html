@@ -3,10 +3,6 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 <p>{{ page.date | date_to_string }}</p>
-<ul class="post-categories">
-            {% for category in page.categories %}
-            <li class="post-category">{{ category }}</li>
-            {% endfor %}
-</ul>
+
 {{ content }}
-<a href="/blog">Back</a>
+<b><a href="/blog">Back</a></b>
