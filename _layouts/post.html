@@ -5,3 +5,30 @@ layout: default
 <p>{{ page.date | date_to_string }}</p>
 
 {{ content }}
+
+{%- capture the_cat -%}{{page.categories | first}}{%- endcapture -%}
+{%- assign sorted_posts = site.categories[the_cat] | sort: 'order' -%}
+
+{%- for post in sorted_posts -%}
+    {%- if post.url == page.url -%}
+
+    {%- assign currIndex = forloop.index0 -%}
+    {%- assign prevIndex = currIndex | minus: 1 -%}
+    {%- assign nextIndex = currIndex | plus: 1 -%}
+    {%- assign articleIndexLength = forloop.length | minus: 1 -%}
+
+    {%- if currIndex == articleIndexLength -%}
+        {%- assign prev_post = sorted_posts[prevIndex] -%}
+    {%- endif -%}
+
+    {%- if currIndex < articleIndexLength and currIndex != 0 -%}
+        {%- assign prev_post = sorted_posts[prevIndex] -%}
+        {%- assign next_post = sorted_posts[nextIndex] -%}
+    {%- endif -%}
+
+    {%- if currIndex == 0 -%}
+        {%- assign next_post = sorted_posts[nextIndex] -%}
+    {%- endif -%}
+
+    {%- endif -%}
+{%- endfor -%}
