@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Write a Post"
+title: "ICS Hacking"
 date: 2021-06-31
-categories: jekyll blogging
+categories: News
 ---
 
 The goal of this article is to add some extra info
