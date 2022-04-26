@@ -13,6 +13,7 @@ title: Blog
 
 {% if post.excerpt != post.content %}
     <a href="{{ site.url }}{{ post.url }}">Read more</a>
+  <br>
 {% endif %}
  </div>
     </li>
