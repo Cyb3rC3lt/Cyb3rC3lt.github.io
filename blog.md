@@ -9,7 +9,7 @@ title: Blog
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <div class="excerpt">      
-{{ post.excerpt }}
+  {{ post.excerpt }}<text>...</text>
 </div>
     </li>
   {% endfor %}
