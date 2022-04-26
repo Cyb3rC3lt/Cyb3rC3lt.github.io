@@ -19,6 +19,6 @@ If you are interested in setting up a home lab to practice PLC hacking without a
 Nice primer on Modbus:
 * [https://www.csimn.com/CSI_pages/Modbus101.html](https://www.csimn.com/CSI_pages/Modbus101.html)
 
-Another site to help us learn Modbus
+Another site to help us learn Modbus:
 * [http://controlthings.io/tools](http://controlthings.io/tools)
 
