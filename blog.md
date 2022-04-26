@@ -10,10 +10,6 @@ title: Blog
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <div class="excerpt">      
   {{ post.excerpt }}
-
-{% if post.excerpt != post.content %}
-    <a href="{{ site.url }}{{ post.url }}">Read more</a>
-  <br>
 {% endif %}
  </div>
     </li>
