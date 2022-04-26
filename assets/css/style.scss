@@ -19,6 +19,8 @@ font-size:25px;
 .excerpt:after{
 white-space: nowrap;
 content: "...";
+  display: inline-block;
+  padding-right: 0.3em;
 }
 
 .intro{
