@@ -9,8 +9,12 @@ title: Blog
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <div class="excerpt">      
-  {{ post.excerpt }}<text>...</text>
-</div>
+  {{ post.excerpt }}
+
+{% if post.excerpt != post.content %}
+    <a href="{{ site.url }}{{ post.url }}">Read more</a>
+{% endif %}
+ </div>
     </li>
   {% endfor %}
 </ul>
