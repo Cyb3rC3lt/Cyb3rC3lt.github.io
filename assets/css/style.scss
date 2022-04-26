@@ -17,6 +17,7 @@ font-size:25px;
 }
 
 .excerpt:after{
+clear: left;
 content: "...";
 margin-right: -24px;
 }
