@@ -17,9 +17,8 @@ font-size:25px;
 }
 
 .excerpt:after{
-clear: left;
+space: nowrap;
 content: "...";
-margin-right: -24px;
 }
 
 .intro{
