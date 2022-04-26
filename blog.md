@@ -2,8 +2,7 @@
 layout: bloglayout
 title: Blog
 ---
-<div class="blogheader"><h1>Latest Posts</h1><a href="/">Back</a>
-</div> 
+<h1>Latest Posts</h1> 
 
 <ul>
   {% for post in site.posts %}
