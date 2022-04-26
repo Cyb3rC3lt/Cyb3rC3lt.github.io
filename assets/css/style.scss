@@ -16,11 +16,9 @@ color:#b5e853;font-size:21px;
 font-size:25px;
 }
 
-.excerpt:after{
+.excerpt {
 white-space: nowrap;
 content: "...";
-  display: inline-block;
-  padding-right: 0.3em;
 }
 
 .intro{
