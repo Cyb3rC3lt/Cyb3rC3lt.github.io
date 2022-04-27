@@ -9,7 +9,7 @@ If you are interested in setting up a home lab to practice PLC hacking without a
 
 * [https://www.adainese.it/blog/2022/04/03/virtual-plc-lab-for-cybersecurity-scenarios](https://www.adainese.it/blog/2022/04/03/virtual-plc-lab-for-cybersecurity-scenarios)
 
-Not exactly a home lab but you can play with a virtual plant whilst using Modbus and Python on [Try Hack Me](https://www.tryhackme.com).
+Not exactly a home lab but you can play with a virtual plant whilst using Modbus and Python on [Try Hack Me](https://www.tryhackme.com) which is lots of fun.
 
 * [https://tryhackme.com/room/attackingics1](https://tryhackme.com/room/attackingics1)
 * [https://tryhackme.com/room/attackingics2](https://tryhackme.com/room/attackingics2)
