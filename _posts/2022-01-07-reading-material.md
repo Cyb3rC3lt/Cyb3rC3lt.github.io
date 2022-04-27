@@ -20,5 +20,5 @@ Nice primer on Modbus:
 * [https://www.csimn.com/CSI_pages/Modbus101.html](https://www.csimn.com/CSI_pages/Modbus101.html)
 
 Another site to help us learn Modbus:
-* [http://controlthings.io/tools](http://controlthings.io/tools)
+* [https://controlthings.io/tools](https://controlthings.io/tools)
 
