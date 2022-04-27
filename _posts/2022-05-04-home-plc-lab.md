@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Home PLC Lab"
-date: 04-05-2022
 categories: HomeLab
 ---
 
