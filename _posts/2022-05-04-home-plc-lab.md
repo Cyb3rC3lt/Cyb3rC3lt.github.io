@@ -2,7 +2,7 @@
 layout: post
 title: "Home PLC Lab"
 date: 04-05-2022
-categories: HomeLab
+categories: news
 ---
 
 If you are interested in setting up a home lab to practice PLC hacking without any physical equipment this setup is worth a try:
