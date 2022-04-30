@@ -25,7 +25,7 @@ This looks to be really good and something I think I will do at some stage.
 
 * [https://ics-cybersecurity.academy/next-trainings/online-training/](https://ics-cybersecurity.academy/next-trainings/online-training/) 
 
-Here we have the SANS course run by Justin Searle where you get to keep the hardware used including a Velocio ACE PLC which I discuss in this [Blog post](https://icssecurity.io/blog/news/home-plc-lab/) in regards how that PLC can be used in a home lab.
+Here we have the SANS course run by Justin Searle where you get to keep the hardware used including a Velocio ACE PLC which I discuss in this [Blog post](https://icssecurity.io/blog/news/home-plc-lab/) in regards how that PLC for $50 can be used in a home lab.
 Here is the course costs and highlights when it runs in the UK: 
 
 * [https://www.qa.com/course-catalogue/courses/assessing-and-exploiting-control-systems-iiot-qaaeics/](https://www.qa.com/course-catalogue/courses/assessing-and-exploiting-control-systems-iiot-qaaeics/)
@@ -38,7 +38,7 @@ I guess finally it wouldn't be a Cyber Security course post without mentioning p
 
 As part of pen testing ICS you will at times need to access the OT network by first owning the Active Directory IT network and pivoting to the OT network. 
 
-I believe these two courses would get you well on your way to achieving that by achieving the OSCP and CRTP certifications:
+I believe these two courses would get you well on your way to achieving that by passing the OSCP and CRTP certifications:
 
 * [https://www.offensive-security.com/pwk-oscp/](https://www.offensive-security.com/pwk-oscp/) 
 * [https://www.pentesteracademy.com/activedirectorylab](https://www.pentesteracademy.com/activedirectorylab) 
