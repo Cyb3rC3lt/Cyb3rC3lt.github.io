@@ -17,3 +17,7 @@ Not exactly a home lab but you can play with a virtual plant whilst using Modbus
 
 * [https://tryhackme.com/room/attackingics1](https://tryhackme.com/room/attackingics1)
 * [https://tryhackme.com/room/attackingics2](https://tryhackme.com/room/attackingics2)
+
+Last but not least a very good video from Shaunna's Workshop illustrating how to set up a home lab virtually:
+
+ <iframe width="300" height="200" src="https://www.youtube.com/embed/xrYFNoNu-TM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
