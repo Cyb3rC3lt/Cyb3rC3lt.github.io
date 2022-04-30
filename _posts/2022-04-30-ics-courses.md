@@ -28,7 +28,7 @@ This looks to be really good and something I think I will do at some stage.
 Here we have the SANS course run by Justin Searle where you get to keep the hardware used including a Velocio ACE PLC which I discuss in this [Blog post](https://icssecurity.io/blog/news/home-plc-lab/) in regards how that PLC can be used in a home lab.
 Here is the course costs and highlights when it runs in the UK: 
 
-* [https://www.qa.com/course-catalogue/courses/assessing-and-exploiting-control-systems-iiot-qaaeics/?learningMethod=Classroom&](https://www.qa.com/course-catalogue/courses/assessing-and-exploiting-control-systems-iiot-qaaeics/?learningMethod=Classroom&)
+* [https://www.qa.com/course-catalogue/courses/assessing-and-exploiting-control-systems-iiot-qaaeics/](https://www.qa.com/course-catalogue/courses/assessing-and-exploiting-control-systems-iiot-qaaeics/)
 
 Here is Justin discussing what is covered:
 
