@@ -36,7 +36,7 @@ Here is Justin discussing what is covered:
 
 I guess finally it wouldn't be a Cyber Security course post without mentioning probably the most famous Cyber Security course in the world which I'm currently studying for which is the OSCP. 
 
-As part of pen testing ICS you will at times need to access the OT network by first owning the Active Directory IT network and pivoting to the OT network. 
+As part of pen testing ICS you will at times need to access the OT network by first getting domain admin on the Active Directory IT network and pivoting to the OT one. 
 
 I believe these two courses would get you well on your way to achieving that by passing the OSCP and CRTP certifications:
 
