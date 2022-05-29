@@ -5,7 +5,7 @@ date: 07-01-2022
 categories: News
 ---
 
-Recently I have been trying to start reading up on ICS Cyber Security so I have build a list of bookmarks which I would like to share below.
+Recently I have been reading up on ICS Cyber Security so I have built a list of bookmarks which I would like to share below.
 Hopefully others out there find them as useful as I have. 
 
 I will do a subsequent post on recommended courses and videos.
