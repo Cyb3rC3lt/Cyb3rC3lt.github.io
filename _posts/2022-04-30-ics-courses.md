@@ -5,7 +5,7 @@ date: 30-04-2022
 categories: News
 ---
 
-Although I'm currently swamped with trying to pass the OSCP I think these are the courses that I've found online that I'd love to attend.
+Although I'm currently swamped with trying to pass the OSCP I think these are the courses which I've found online that I'd love to attend.
 They wouldn't be beginner courses and you'd need to have some background knowledge in IT I would suggest. 
 
 The first one is reasonably priced given the membership options but the other 2 are kinda pricey.
