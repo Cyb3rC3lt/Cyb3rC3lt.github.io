@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sliver BOF"
+title: "Sliver Beacon Object File"
 permalink: "sliverbof"
 date: 18-10-2023
 categories: Blog

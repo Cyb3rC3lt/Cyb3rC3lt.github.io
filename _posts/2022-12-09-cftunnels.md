@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cloudflare Tunnels"
+title: "Cloudflare Tunnelling"
 permalink: "cftunnels"
 date: 20-12-2023
 categories: Blog
