@@ -177,4 +177,4 @@ Some remediation steps that you can take to hinder these attacks in your domain 
 
 Until next time.
 
-I originally posted this at: https://labs.jumpsec.com&#8203;/ntlm-relaying-making-the-old-new-again
+I originally posted this at: https://labs.jumpsec.com/articles/2024/09/2024-09-17-ntlm-relaying-making-the-old-new-again
