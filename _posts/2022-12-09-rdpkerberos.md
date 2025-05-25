@@ -57,29 +57,24 @@ Now that we are able to pass the hash to get onto the box we want to get to the 
 sudo apt install krb5-user
 {% endhighlight %}
 
-We can then get a TGT for our dkennedy user like this:
+We can then get a TGT for our dkennedy user like this and ensure that it is visible in klist:
 
 <img src="{{ "/assets/img/dkennedytgt.jpg" | prepend: site.baseurl }}" />
 
-And now check for it in klist:
-
-<img src="{{ "/assets/img/kerbklist.jpg" | prepend: site.baseurl }}" />
-
-Now we need to set up a realm for our infrastructure. This involves editing the /etc/krb5.conf file which I will show below.
-For my network my krb5.conf file has these changes:
+Now we need to set up a realm for our infrastructure. This involves editing the /etc/krb5.conf file which for my network has these changes:
 
 <img src="{{ "/assets/img/krbinf1.jpg" | prepend: site.baseurl }}" />
 
 <img src="{{ "/assets/img/krbinf2.jpg" | prepend: site.baseurl }}" />
 
 
-The last piece of the jigsaw is to run your xfreerdp command with the key being to specify a blank password and to use the restricted-admin flag:
+The last piece of the jigsaw is to run your xfreerdp command. The important thing to keep in mind is to specify a blank password and to use the restricted-admin flag as shown:
 
 {% highlight powershell %}
 xfreerdp /size:1670x1430 +clipboard /cert:ignore /v:kennedy-dc.kennedy.local /u:dkennedy /p:'' /d:kennedy.local /dynamic-resolution /restricted-admin
 {% endhighlight %}
 
-After you have done this you can now connect to your target using RDP with your Keberos TGT. Hope you found this helpful. 
+After you have done this you can now connect to your target using RDP with your Keberos TGT. I hope you found this helpful as it has been a frustration of mine for awhile. 
 
 
 
