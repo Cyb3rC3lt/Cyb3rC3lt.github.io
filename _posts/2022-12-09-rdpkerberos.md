@@ -6,7 +6,7 @@ date: 25-05-2025
 categories: Blog
 ---
 
-If you are like me and prefer to use Kerberos moving around environments, there was for me at least always a slight hurdle when wanting to RDP to various machines. I could get 'Pass The Hash' working using xfreerdp but using Kerberos was something I wasn't able to get right.
+If you are like me and prefer to use Kerberos moving around environments, there was for me at least, always a slight hurdle when wanting to RDP to various machines. I could get 'Pass The Hash' working using xfreerdp but using Kerberos was something I wasn't able to get right.
 
 Even with an admin hash for a machine I would sometimes come across this alert preventing me from accessing it via PTH too.
 
