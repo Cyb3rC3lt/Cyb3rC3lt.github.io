@@ -32,7 +32,7 @@ To play around with this flag we can use netxec given how easy it is to use. Fir
 
 <img src="{{ "/assets/img/restrictedcheck.jpg" | prepend: site.baseurl }}" />
 
-If it doesn't exist we can add the key and set it to zero.
+If it doesn't exist we can add the key and set it to zero:
 
 <img src="{{ "/assets/img/restrictedadd.jpg" | prepend: site.baseurl }}" />
 
@@ -40,7 +40,7 @@ If the key did exist you can just set it to zero like so:
 
 <img src="{{ "/assets/img/restrictedadd2.jpg" | prepend: site.baseurl }}" />
 
-This will now allow us to PTH onto the box with xfreerdp
+This will now allow us to PTH onto the box with xfreerdp:
 
 `xfreerdp /size:1670x1430 +clipboard /cert:ignore /v:KENNEDY-DC.KENNEDY.LOCAL /u:dkennedy /pth:HASH /d:KENNEDY.LOCAL /dynamic-resolution`
 
@@ -62,9 +62,9 @@ And now check for it in klist:
 Now we need to set up a realm for our infrastructure. This involves editing the /etc/krb5.conf file which I will show below.
 For my network my krb5.conf file has these changes:
 
-<img src="{{ "/assets/img/kerbinf1.jpg" | prepend: site.baseurl }}" />
+<img src="{{ "/assets/img/krbinf1.jpg" | prepend: site.baseurl }}" />
 
-<img src="{{ "/assets/img/kerbinf2.jpg" | prepend: site.baseurl }}" />
+<img src="{{ "/assets/img/krbinf2.jpg" | prepend: site.baseurl }}" />
 
 
 The last piece of the jigsaw is to run your xfreerdp command with the key being to specify a blank password and use the restriced-admin flag as so:
