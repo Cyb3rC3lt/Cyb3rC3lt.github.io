@@ -27,7 +27,7 @@ HKLM:\System\CurrentControlSet\
 Control\Lsa\DisableRestrictedAdmin
 {% endhighlight %}
 
-Given that this is a 'Disable' flag and that the 'RestrictedAdmin' mode despite its name is actually a good thing for us testers to move laterally with, we actually want this to be set to zero. Setting it to zero will enable 'RestrictedAdmin' mode on the box and allow us to get onto it via PTH or Kerberos.
+Given that this is a 'Disable' flag and that the 'RestrictedAdmin' mode (despite its name) is actually a good thing for us testers to move laterally with, we actually want this to be set to zero. Setting it to zero will enable 'RestrictedAdmin' mode on the box and allow us to get onto it via PTH or Kerberos.
 
 ### netxec commands
 
