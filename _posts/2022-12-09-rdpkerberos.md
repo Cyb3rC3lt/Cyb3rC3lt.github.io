@@ -16,7 +16,7 @@ This issue relates to the Windows feature known as 'Restricted Admin' which was 
 
 The catch though in this whack a mole situation, is that by doing this it then allowed threat actors to pass the hash and to also allow authentication using Kerberos. So this puts companies in a bind to decide whether to prioritise the chances of passwords being stolen from LSASS versus credentials being reused to get onto their machines.
 
-Therefore when you read a lot of DFIR reports you actually see threat actors enabling the feature to allow them access!
+Therefore when you read a lot of DFIR reports you actually see threat actors enabling this feature to allow them access!
 
 ### The inverse logic of RestrictedAdmin
 
