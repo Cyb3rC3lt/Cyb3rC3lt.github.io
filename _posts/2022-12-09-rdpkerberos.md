@@ -57,7 +57,7 @@ Now that we are able to pass the hash to get onto the box we want to get to the 
 sudo apt install krb5-user
 {% endhighlight %}
 
-We then can get a TGT for our dkennedy user like so:
+We can then get a TGT for our dkennedy user like this:
 
 <img src="{{ "/assets/img/dkennedytgt.jpg" | prepend: site.baseurl }}" />
 
@@ -73,7 +73,7 @@ For my network my krb5.conf file has these changes:
 <img src="{{ "/assets/img/krbinf2.jpg" | prepend: site.baseurl }}" />
 
 
-The last piece of the jigsaw is to run your xfreerdp command with the key being to specify a blank password and use the restriced-admin flag as so:
+The last piece of the jigsaw is to run your xfreerdp command with the key being to specify a blank password and to use the restricted-admin flag:
 
 {% highlight powershell %}
 xfreerdp /size:1670x1430 +clipboard /cert:ignore /v:kennedy-dc.kennedy.local /u:dkennedy /p:'' /d:kennedy.local /dynamic-resolution /restricted-admin
