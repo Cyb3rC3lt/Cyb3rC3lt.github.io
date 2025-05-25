@@ -22,7 +22,9 @@ Therefore when you read a lot of DFIR reports you actually see threat actors ena
 
 When investigating this feature you inevitably get led to this particular registry key:
 
-`HKLM:\System\CurrentControlSet\Control\Lsa\DisableRestrictedAdmin`
+{% highlight powershell %}
+HKLM:\System\CurrentControlSet\Control\Lsa\DisableRestrictedAdmin
+{% endhighlight %}
 
 Given that this is a 'Disable' flag and that the 'RestrictedAdmin' mode despite its name is actually a good thing for us testers to move laterally with, we actually want this to be set to zero. Setting it to zero will enable 'RestrictedAdmin' mode on the box and allow us to get onto it via PTH or Kerberos.
 
@@ -42,14 +44,17 @@ If the key did exist you can just set it to zero like so:
 
 This will now allow us to PTH onto the box with xfreerdp:
 
-`xfreerdp /size:1670x1430 +clipboard /cert:ignore /v:KENNEDY-DC.KENNEDY.LOCAL /u:dkennedy /pth:HASH /d:KENNEDY.LOCAL /dynamic-resolution`
-
+{% highlight powershell %}
+xfreerdp /size:1670x1430 +clipboard /cert:ignore /v:KENNEDY-DC.KENNEDY.LOCAL /u:dkennedy /pth:HASH /d:KENNEDY.LOCAL /dynamic-resolution
+{% endhighlight %}
 
 ### Using Kerberos 
 
 Now that we are able to pass the hash to get onto the box we want to get to the crux of this post and that is to be able to do so via Kerberos. First make sure you have the various Kerberos features installed for Linux like klist with this command:
 
-`sudo apt install krb5-user`
+{% highlight powershell %}
+sudo apt install krb5-user
+{% endhighlight %}
 
 We then can get a TGT for our dkennedy user like so:
 
