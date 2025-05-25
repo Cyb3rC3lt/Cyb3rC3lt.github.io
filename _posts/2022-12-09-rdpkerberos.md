@@ -29,9 +29,9 @@ Control\Lsa\DisableRestrictedAdmin
 
 Given that this is a 'Disable' flag and that the 'RestrictedAdmin' mode (despite its name) is actually a good thing for us testers to move laterally with, we actually want this to be set to zero. Setting it to zero will enable 'RestrictedAdmin' mode on the box and allow us to get onto it via PTH or Kerberos.
 
-### netxec commands
+### netexec commands
 
-To play around with this flag we can use netxec given how easy it is to use. First we can check if the registry entry is present like so:
+To play around with this flag we can use netexec given how easy it is to use. First we can check if the registry entry is present like so:
 
 <img src="{{ "/assets/img/restrictedcheck.jpg" | prepend: site.baseurl }}" />
 
