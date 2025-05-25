@@ -20,7 +20,7 @@ Therefore when you read a lot of DFIR reports you actually see threat actors ena
 
 ### The inverse logic of RestrictedAdmin
 
-When investigating this feature you inevitably get led to this particular registry key:
+When investigating this feature you inevitably get led to this particular registry key that determines whether it is enabled or not:
 
 {% highlight powershell %}
 HKLM:\System\CurrentControlSet\
