@@ -74,7 +74,7 @@ The last piece of the jigsaw is to run your xfreerdp command. The important thin
 xfreerdp /size:1670x1430 +clipboard /cert:ignore /v:kennedy-dc.kennedy.local /u:dkennedy /p:'' /d:kennedy.local /dynamic-resolution /restricted-admin
 {% endhighlight %}
 
-After you have done this you can now connect to your target using RDP with your Keberos TGT. I hope you found this helpful as it has been a frustration of mine for awhile. 
+After you have done this you can now connect to your target using RDP with your Keberos TGT. I hope you found this helpful especially as it has been a frustration of mine for awhile. 
 
 
 
