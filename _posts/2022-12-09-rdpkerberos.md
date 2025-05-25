@@ -23,7 +23,8 @@ Therefore when you read a lot of DFIR reports you actually see threat actors ena
 When investigating this feature you inevitably get led to this particular registry key:
 
 {% highlight powershell %}
-HKLM:\System\CurrentControlSet\Control\Lsa\DisableRestrictedAdmin
+HKLM:\System\CurrentControlSet\
+Control\Lsa\DisableRestrictedAdmin
 {% endhighlight %}
 
 Given that this is a 'Disable' flag and that the 'RestrictedAdmin' mode despite its name is actually a good thing for us testers to move laterally with, we actually want this to be set to zero. Setting it to zero will enable 'RestrictedAdmin' mode on the box and allow us to get onto it via PTH or Kerberos.
