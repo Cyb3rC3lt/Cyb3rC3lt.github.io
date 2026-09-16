@@ -1,4 +1,4 @@
-[---
+---
 layout: post
 title: "Putting the C2 in C2loudflare"
 permalink: "c2cloudflare"
