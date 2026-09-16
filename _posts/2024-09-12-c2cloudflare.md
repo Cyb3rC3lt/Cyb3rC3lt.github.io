@@ -212,9 +212,3 @@ So, if you are still with me that is now all we need to access our cloud infrast
  - If the service auth token matches, the request is directed to that specific tunnel. This then flows into the internal URL of our Cloud VM (which is specified in the tunnel config) to provide us with our connectivity.
 
 The above Cloudflare configuration coupled with Azure snapshots and Tmux Resurrect make for a really nice combination in regards swiftly bringing up your red team infrastructure. We hope that you found this useful, and we feel that it is worth trying this setup out for yourself and your team if you want to speed up your infrastructure creation.
-
-
-I originally posted this at: https://labs.jumpsec.com&#8203;/putting-the-c2-in-c2loudflare/
-
-
-](https://labs.jumpsec.com/assets/img/posts/putting-the-c2-in-c2loudflare/)
